@@ -187,6 +187,56 @@ export default function Portfolio() {
 						</Row>
 					</Container>
 				</section>
+        {/* Experience Section */}
+<section id="experience" className="py-5">
+    <Container>
+        <h2 className="display-6 fw-bold text-center mb-4">
+            Experience
+        </h2>
+        <Row className="g-4">
+            <Col md={6}>
+                <Card className="shadow-sm">
+                    <Card.Body>
+                        <h5 className="fw-bold">Senior MERN Stack Developer</h5>
+                        <h6 className="text-muted">Tech Solutions Inc.</h6>
+                        <p className="text-muted mb-2">January 2022 - Present</p>
+                        <Card.Text>
+                            Leading a team of developers to create dynamic and scalable web applications. 
+                            Focused on enhancing user experience and implementing advanced features using the MERN stack.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+            <Col md={6}>
+                <Card className="shadow-sm">
+                    <Card.Body>
+                        <h5 className="fw-bold">Full Stack Developer</h5>
+                        <h6 className="text-muted">Web Innovations Ltd.</h6>
+                        <p className="text-muted mb-2">June 2019 - December 2021</p>
+                        <Card.Text>
+                            Built and maintained multiple web applications, collaborating closely with design teams to 
+                            deliver responsive and user-friendly interfaces. Focused on both backend efficiency and front-end experience.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+            <Col md={6}>
+                <Card className="shadow-sm">
+                    <Card.Body>
+                        <h5 className="fw-bold">Junior Developer</h5>
+                        <h6 className="text-muted">Creative Digital Agency</h6>
+                        <p className="text-muted mb-2">July 2017 - May 2019</p>
+                        <Card.Text>
+                            Gained experience in developing full-stack applications. Contributed to code reviews, improved 
+                            code quality, and assisted senior developers on various projects.
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+        </Row>
+    </Container>
+</section>
+
 
 				{/* Contact Section */}
 				<section id="contact" className="py-5 bg-light">
@@ -226,7 +276,7 @@ export default function Portfolio() {
 
 			{/* Footer */}
 			<footer className="bg-dark text-white py-3">
-				<Container className="text-center">
+				<Container className="text-center ">
 					<p className="mb-0">
 						&copy; 2024 Md Israr Ahmed. All rights reserved.
 					</p>
