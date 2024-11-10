@@ -189,52 +189,90 @@ export default function Portfolio() {
 				</section>
         {/* Experience Section */}
 <section id="experience" className="py-5">
-    <Container>
-        <h2 className="display-6 fw-bold text-center mb-4">
-            Experience
-        </h2>
-        <Row className="g-4">
-            <Col md={6}>
-                <Card className="shadow-sm">
-                    <Card.Body>
-                        <h5 className="fw-bold">Senior MERN Stack Developer</h5>
-                        <h6 className="text-muted">Tech Solutions Inc.</h6>
-                        <p className="text-muted mb-2">January 2022 - Present</p>
-                        <Card.Text>
-                            Leading a team of developers to create dynamic and scalable web applications. 
-                            Focused on enhancing user experience and implementing advanced features using the MERN stack.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
-            <Col md={6}>
-                <Card className="shadow-sm">
-                    <Card.Body>
-                        <h5 className="fw-bold">Full Stack Developer</h5>
-                        <h6 className="text-muted">Web Innovations Ltd.</h6>
-                        <p className="text-muted mb-2">June 2019 - December 2021</p>
-                        <Card.Text>
-                            Built and maintained multiple web applications, collaborating closely with design teams to 
-                            deliver responsive and user-friendly interfaces. Focused on both backend efficiency and front-end experience.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
-            <Col md={6}>
-                <Card className="shadow-sm">
-                    <Card.Body>
-                        <h5 className="fw-bold">Junior Developer</h5>
-                        <h6 className="text-muted">Creative Digital Agency</h6>
-                        <p className="text-muted mb-2">July 2017 - May 2019</p>
-                        <Card.Text>
-                            Gained experience in developing full-stack applications. Contributed to code reviews, improved 
-                            code quality, and assisted senior developers on various projects.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
-        </Row>
-    </Container>
+	<Container>
+		<h2 className="display-6 fw-bold text-center mb-4">Experience</h2>
+		<Row className="g-4">
+			{/* Experience Item */}
+			<Col md={6}>
+				<Card className="shadow-sm" >
+					<Card.Img 
+						variant="top" 
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKySibu9ktjFehAocmtmKPF0pfcJkPUu_NwA&s" 
+						alt="Standard Chartered Bank" 
+					/>
+					<Card.Body>
+						<Card.Title>Frontend Developer - Standard Chartered Bank</Card.Title>
+						<Card.Subtitle className="mb-2 text-muted">
+							March 2020 - February 2021
+						</Card.Subtitle>
+						<Card.Text>
+							Worked on maintaining the UI and implementing useful calculators to enhance user experience. Collaborated with the team to ensure high standards of design and functionality.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+			</Col>
+      {/* Experience Item */}
+			<Col md={6}>
+				<Card className="shadow-sm" >
+					<Card.Img 
+						variant="top" 
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKySibu9ktjFehAocmtmKPF0pfcJkPUu_NwA&s" 
+						alt="Standard Chartered Bank" 
+					/>
+					<Card.Body>
+						<Card.Title>Frontend Developer - Standard Chartered Bank</Card.Title>
+						<Card.Subtitle className="mb-2 text-muted">
+							March 2020 - February 2021
+						</Card.Subtitle>
+						<Card.Text>
+							Worked on maintaining the UI and implementing useful calculators to enhance user experience. Collaborated with the team to ensure high standards of design and functionality.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+			</Col>
+      {/* Experience Item */}
+			<Col md={6}>
+				<Card className="shadow-sm" >
+					<Card.Img 
+						variant="top" 
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKySibu9ktjFehAocmtmKPF0pfcJkPUu_NwA&s" 
+						alt="Standard Chartered Bank" 
+					/>
+					<Card.Body>
+						<Card.Title>Frontend Developer - Standard Chartered Bank</Card.Title>
+						<Card.Subtitle className="mb-2 text-muted">
+							March 2020 - February 2021
+						</Card.Subtitle>
+						<Card.Text>
+							Worked on maintaining the UI and implementing useful calculators to enhance user experience. Collaborated with the team to ensure high standards of design and functionality.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+			</Col>
+
+			{/* Experience Item */}
+			<Col md={6}>
+				<Card className="shadow-sm px-2"  >
+					<Card.Img 
+						variant="top" 
+						src="https://www.relativity.com/sites/relativity/cache/file/E68CF079-6D16-4EAE-A9E2A2A08D08AC3B_Wauto_H300.png" 
+						alt="PwC" 
+					/>
+					<Card.Body>
+						<Card.Title>MERN Stack Developer - PwC</Card.Title>
+						<Card.Subtitle className="mb-2 text-muted">
+							April 2021 - February 2022
+						</Card.Subtitle>
+						<Card.Text>
+							Developed a comprehensive Questionnaire Form application for employee feedback, with role-based access and optimized performance. Collaborated with TCS Hyderabad for on-time delivery.
+						</Card.Text>
+					</Card.Body>
+				</Card>
+			</Col>
+
+			{/* Add more experiences as needed */}
+		</Row>
+	</Container>
 </section>
 
 
@@ -244,7 +282,7 @@ export default function Portfolio() {
 						<h2 className="display-6 fw-bold text-center mb-4">
 							Contact Me
 						</h2>
-						<Form className="mx-auto" style={{ maxWidth: '500px' }}>
+						<Form className="mx-auto" style={{ maxWidth: '1000px' }}>
 							<Form.Group className="mb-3">
 								<Form.Control type="text" placeholder="Name" />
 							</Form.Group>
@@ -276,7 +314,7 @@ export default function Portfolio() {
 
 			{/* Footer */}
 			<footer className="bg-dark text-white py-3">
-				<Container className="text-center ">
+				<Container className="text-center">
 					<p className="mb-0">
 						&copy; 2024 Md Israr Ahmed. All rights reserved.
 					</p>
